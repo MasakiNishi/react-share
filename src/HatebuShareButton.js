@@ -5,7 +5,7 @@ import assert from 'assert';
 import createShareButton from './utils/createShareButton';
 import objectToGetParams from './utils/objectToGetParams';
 
-function HatebuLink(url, { title }) {
+function hatebuLink(url, { title }) {
   assert(url, 'hatebu.url');
 
   return 'http://b.hatena.ne.jp/entry/' + objectToGetParams({
