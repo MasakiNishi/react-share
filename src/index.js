@@ -4,6 +4,8 @@ export { default as VKShareCount } from './VKShareCount';
 export { default as OKShareCount } from './OKShareCount';
 export { default as RedditShareCount } from './RedditShareCount';
 export { default as TumblrShareCount } from './TumblrShareCount';
+export { default as TwitterShareCount } from './TwitterShareCount';
+export { default as HatebuShareCount } from './HatebuShareCount';
 
 export { default as FacebookShareButton } from './FacebookShareButton';
 export { default as LinkedinShareButton } from './LinkedinShareButton';
@@ -24,6 +26,7 @@ export { default as LineShareButton } from './LineShareButton';
 export { default as WeiboShareButton } from './WeiboShareButton';
 export { default as PocketShareButton } from './PocketShareButton';
 export { default as InstapaperShareButton } from './InstapaperShareButton';
+export { default as HatebuShareButton } from './HatebuShareButton';
 
 export { default as FacebookIcon } from './FacebookIcon';
 export { default as TwitterIcon } from './TwitterIcon';
@@ -43,3 +46,4 @@ export { default as WorkplaceIcon } from './WorkplaceIcon';
 export { default as LineIcon } from './LineIcon';
 export { default as PocketIcon } from './PocketIcon';
 export { default as InstapaperIcon } from './InstapaperIcon';
+export { default as HatebuIcon } from './HatebuIcon';
