@@ -54,7 +54,7 @@ class SocialMediaShareCount extends Component {
     } = this.props;
 
     return (
-      <div className={cx('SocialMediaShareCount', className)}>
+      <div className={cx('SocialMediaShareCount', className)} style={{textAlign: "center"}}>
         {!isLoading && children(count || 0)}
       </div>
     );
