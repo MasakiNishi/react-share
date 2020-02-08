@@ -1,24 +1,14 @@
-import PropTypes from 'prop-types';
-
 import assert from 'assert';
 
 import createShareButton from './utils/createShareButton';
-import objectToGetParams from './utils/objectToGetParams';
 
-function hatebuLink(url, { title }) {
+function hatebuLink(url) {
   assert(url, 'hatebu.url');
 
-  return 'http://b.hatena.ne.jp/entry/' + objectToGetParams({
-    url,
-    text: title,
-  });
+  return 'http://b.hatena.ne.jp/entry/' + url;
 }
 
-const HatebuShareButton = createShareButton('hatebu', hatebuLink, props => ({
-  title: props.title,
-}), {
-  title: PropTypes.string,
-}, {
+const HatebuShareButton = createShareButton('hatebu', hatebuLink, undefined, undefined, {
   windowWidth: 500,
   windowHeight: 500,
 });
