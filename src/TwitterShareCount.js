@@ -4,7 +4,7 @@ import objectToGetParams from './utils/objectToGetParams';
 import shareCountFactory from './utils/shareCountFactory';
 
 function getTwitterShareCount(shareUrl, callback) {
-  const url = 'http://jsoon.digitiminimi.com/twitter/count.json';
+  const url = 'https://jsoon.digitiminimi.com/twitter/count.json';
 
   return jsonp(url + objectToGetParams({
     url: shareUrl,

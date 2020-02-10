@@ -5,7 +5,7 @@ import createShareButton from './utils/createShareButton';
 function hatebuLink(url) {
   assert(url, 'hatebu.url');
 
-  return 'http://b.hatena.ne.jp/entry/' + url;
+  return 'https://b.hatena.ne.jp/entry/' + url;
 }
 
 const HatebuShareButton = createShareButton('hatebu', hatebuLink, undefined, undefined, {
