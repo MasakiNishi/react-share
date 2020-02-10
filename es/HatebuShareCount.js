@@ -4,7 +4,7 @@ import objectToGetParams from './utils/objectToGetParams';
 import shareCountFactory from './utils/shareCountFactory';
 
 function getHatebuShareCount(shareUrl, callback) {
-  var url = 'http://api.b.st-hatena.com/entry.count';
+  var url = 'https://api.b.st-hatena.com/entry.count';
 
   return jsonp(url + objectToGetParams({
     url: shareUrl
